@@ -2,7 +2,7 @@
 
 -Q1 Are you the server/network owner? 
 
--Q2 do you agree with the merge and all the details?
+-Q2 do you agree with this merge and all the details?
 
 -Q3 Form of contact email this could include: ymail,gmail,live ect
 
@@ -10,7 +10,21 @@
 
 -Q6 what platform are you using?
 
-**please anwser these questions fully if any problems please contact owner of edextory**
+-Q7 are there any co-owners or any other server managers?
+
+-Q8 whats the server ip that you wish to merge with EDEXTORY
+
+- please peform a signature below (you could just right your name)
+
+
+
+- input the date of this fourm being filled out in this format *DD/MM/YYYY*
+
+
+
+
+
+**contact kitties#5814 if you need help with this fourm**
 
 copyright 2016-2020 rights reserved
 
